@@ -3,6 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Counter from "../Counter/Counter"
 import TodoList from "../Todos/TodoList"
 import ParameterReader from "../ParameterReader/ParameterReader"
+import APICaller from "../APICaller/APICaller"
 
 const RouterReader = () => {
     return (
@@ -15,12 +16,12 @@ const RouterReader = () => {
 
                 <Route path="*" element={<div>404 Not Found</div>}></Route>
             </Routes >
-            <div>
+            {/* <div>
                 <Link to='/'>Home</Link> -
                 <Link to='/Counter'>Counter</Link> -
                 <Link to='/Todos'>Todos</Link> -
                 <Link to='/ParameterReader'>ParameterReader</Link>
-            </div>
+            </div> */}
         </>
     )
 };

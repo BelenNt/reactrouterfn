@@ -1,0 +1,15 @@
+.digimon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: auto;
+    grid-auto-rows: minmax(auto, auto);
+  }
+  
+  .digimon-image {
+    max-width: 25vw;
+    height: auto;
+  }
+  
+  .input-box {
+    padding: 10px 0px;
+  }
